@@ -31,12 +31,15 @@ class MainTabBarController: UITabBarController {
         
         //精华
         self.addChildVC(vc: EssenceViewController(), title: "精华", imageName:"tabBar_essence_icon" , selectedImageName: "tabBar_essence_click_icon")
-        //关注
-        self.addChildVC(vc: FriendViewController(), title: "关注", imageName:"tabBar_friendTrends_icon" , selectedImageName: "tabBar_friendTrends_click_icon")
-
+        
         //新帖
         self.addChildVC(vc: NewViewController(), title: "新帖", imageName:"tabBar_new_icon" , selectedImageName: "tabBar_new_click_icon")
         
+        
+        //关注
+        self.addChildVC(vc: FriendViewController(), title: "关注", imageName:"tabBar_friendTrends_icon" , selectedImageName: "tabBar_friendTrends_click_icon")
+
+    
         //我
         self.addChildVC(vc: MeViewController(), title: "我的", imageName:"tabBar_me_icon" , selectedImageName: "tabBar_me_click_icon")
         

@@ -8,6 +8,8 @@
 
 import UIKit
 
+import QorumLogs
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
+        QorumLogs.enabled = true
+    
+        
         window = UIWindow(frame:UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
         //设置根控制器
