@@ -1,2 +1,6 @@
-# Baisi
-百思不得姐项目
+## StartProject
+
+## Core Pods
+
+* 日志 `QorumLogs`
+* 网络请求 `Alamofire`

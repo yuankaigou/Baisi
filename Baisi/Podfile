@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+use_frameworks!
+
+project '../Baisi.xcodeproj'
+
+target 'Baisi' do
+
+pod 'QorumLogs' 
+
+pod 'Alamofire', '~> 4.4.0'
+
+
+end
+
