@@ -16,6 +16,7 @@
 		5C684EBB1EAF84F300A8CF87 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684EBA1EAF84F300A8CF87 /* NewViewController.swift */; };
 		5C684EBD1EAF8CCC00A8CF87 /* YKTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684EBC1EAF8CCC00A8CF87 /* YKTabBar.swift */; };
 		5C684EBF1EAF938600A8CF87 /* YKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684EBE1EAF938600A8CF87 /* YKExtension.swift */; };
+		5C6C0F471EB0E853001347B2 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6C0F461EB0E853001347B2 /* SquareButton.swift */; };
 		5CE741BF1EB02E2E00E8669D /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741BD1EB02E2E00E8669D /* FriendViewController.swift */; };
 		5CE741C01EB02E2E00E8669D /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */; };
 		5CE741C21EB0329000E8669D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741C11EB0329000E8669D /* Header.swift */; };
@@ -24,6 +25,7 @@
 		5CE741CA1EB0681B00E8669D /* YKMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741C91EB0681B00E8669D /* YKMeFooterView.swift */; };
 		5CE741CD1EB068CD00E8669D /* LoginOrRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741CB1EB068CD00E8669D /* LoginOrRegisterViewController.swift */; };
 		5CE741CE1EB068CD00E8669D /* LoginOrRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE741CC1EB068CD00E8669D /* LoginOrRegisterViewController.xib */; };
+		5CE741D01EB0709000E8669D /* YKSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741CF1EB0709000E8669D /* YKSquare.swift */; };
 		75EBE1CB415D3F1297DD6677 /* Pods_Baisi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6A78C2E8403AC3CAE98A1E /* Pods_Baisi.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,7 @@
 		5C684EBA1EAF84F300A8CF87 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		5C684EBC1EAF8CCC00A8CF87 /* YKTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKTabBar.swift; sourceTree = "<group>"; };
 		5C684EBE1EAF938600A8CF87 /* YKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKExtension.swift; sourceTree = "<group>"; };
+		5C6C0F461EB0E853001347B2 /* SquareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 		5CE741BD1EB02E2E00E8669D /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
 		5CE741C11EB0329000E8669D /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		5CE741C91EB0681B00E8669D /* YKMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKMeFooterView.swift; sourceTree = "<group>"; };
 		5CE741CB1EB068CD00E8669D /* LoginOrRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginOrRegisterViewController.swift; sourceTree = "<group>"; };
 		5CE741CC1EB068CD00E8669D /* LoginOrRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginOrRegisterViewController.xib; sourceTree = "<group>"; };
+		5CE741CF1EB0709000E8669D /* YKSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKSquare.swift; sourceTree = "<group>"; };
 		8BA832802D2A8ED5789D69B8 /* Pods-Baisi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baisi.release.xcconfig"; path = "Baisi/Pods/Target Support Files/Pods-Baisi/Pods-Baisi.release.xcconfig"; sourceTree = "<group>"; };
 		95FD85A48B351BECF28C4C48 /* Pods-Baisi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baisi.debug.xcconfig"; path = "Baisi/Pods/Target Support Files/Pods-Baisi/Pods-Baisi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,6 +199,7 @@
 		5C684EA61EAF80FC00A8CF87 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5CE741CF1EB0709000E8669D /* YKSquare.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			children = (
 				5CE741C71EB0497B00E8669D /* YKMeCell.swift */,
 				5CE741C91EB0681B00E8669D /* YKMeFooterView.swift */,
+				5C6C0F461EB0E853001347B2 /* SquareButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -434,10 +440,12 @@
 				5C684E8C1EAF7EFD00A8CF87 /* ViewController.swift in Sources */,
 				5CE741C41EB034C200E8669D /* UIBarButtonItem+Extension.swift in Sources */,
 				5C684EBB1EAF84F300A8CF87 /* NewViewController.swift in Sources */,
+				5C6C0F471EB0E853001347B2 /* SquareButton.swift in Sources */,
 				5C684E8A1EAF7EFD00A8CF87 /* AppDelegate.swift in Sources */,
 				5CE741BF1EB02E2E00E8669D /* FriendViewController.swift in Sources */,
 				5C684EB31EAF83FF00A8CF87 /* MainTabBarController.swift in Sources */,
 				5C684EB51EAF84A800A8CF87 /* EssenceViewController.swift in Sources */,
+				5CE741D01EB0709000E8669D /* YKSquare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

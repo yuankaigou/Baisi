@@ -43,7 +43,8 @@ class MeViewController: UIViewController, UITableViewDelegate,UITableViewDataSou
         tableView.contentInset = UIEdgeInsetsMake(-25, 0, -20, 0)
         
         //设置脚步视图
-        tableView.tableFooterView = UIView()
+        tableView.tableFooterView = YKMeFooterView()
+        
         
         
         //注册cell
