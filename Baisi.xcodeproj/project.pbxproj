@@ -20,6 +20,10 @@
 		5CE741C01EB02E2E00E8669D /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */; };
 		5CE741C21EB0329000E8669D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741C11EB0329000E8669D /* Header.swift */; };
 		5CE741C41EB034C200E8669D /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741C31EB034C200E8669D /* UIBarButtonItem+Extension.swift */; };
+		5CE741C81EB0497B00E8669D /* YKMeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741C71EB0497B00E8669D /* YKMeCell.swift */; };
+		5CE741CA1EB0681B00E8669D /* YKMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741C91EB0681B00E8669D /* YKMeFooterView.swift */; };
+		5CE741CD1EB068CD00E8669D /* LoginOrRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741CB1EB068CD00E8669D /* LoginOrRegisterViewController.swift */; };
+		5CE741CE1EB068CD00E8669D /* LoginOrRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE741CC1EB068CD00E8669D /* LoginOrRegisterViewController.xib */; };
 		75EBE1CB415D3F1297DD6677 /* Pods_Baisi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6A78C2E8403AC3CAE98A1E /* Pods_Baisi.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +41,13 @@
 		5C684EBC1EAF8CCC00A8CF87 /* YKTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKTabBar.swift; sourceTree = "<group>"; };
 		5C684EBE1EAF938600A8CF87 /* YKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKExtension.swift; sourceTree = "<group>"; };
 		5CE741BD1EB02E2E00E8669D /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
-		5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FriendViewController.xib; path = ../Controller/FriendViewController.xib; sourceTree = "<group>"; };
+		5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
 		5CE741C11EB0329000E8669D /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		5CE741C31EB034C200E8669D /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		5CE741C71EB0497B00E8669D /* YKMeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKMeCell.swift; sourceTree = "<group>"; };
+		5CE741C91EB0681B00E8669D /* YKMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKMeFooterView.swift; sourceTree = "<group>"; };
+		5CE741CB1EB068CD00E8669D /* LoginOrRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginOrRegisterViewController.swift; sourceTree = "<group>"; };
+		5CE741CC1EB068CD00E8669D /* LoginOrRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginOrRegisterViewController.xib; sourceTree = "<group>"; };
 		8BA832802D2A8ED5789D69B8 /* Pods-Baisi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baisi.release.xcconfig"; path = "Baisi/Pods/Target Support Files/Pods-Baisi/Pods-Baisi.release.xcconfig"; sourceTree = "<group>"; };
 		95FD85A48B351BECF28C4C48 /* Pods-Baisi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baisi.debug.xcconfig"; path = "Baisi/Pods/Target Support Files/Pods-Baisi/Pods-Baisi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				5CE741BD1EB02E2E00E8669D /* FriendViewController.swift */,
+				5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */,
+				5CE741CB1EB068CD00E8669D /* LoginOrRegisterViewController.swift */,
+				5CE741CC1EB068CD00E8669D /* LoginOrRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,7 +170,6 @@
 		5C684EA31EAF80FC00A8CF87 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +202,8 @@
 		5C684EA71EAF80FC00A8CF87 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5CE741C71EB0497B00E8669D /* YKMeCell.swift */,
+				5CE741C91EB0681B00E8669D /* YKMeFooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -351,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE741CE1EB068CD00E8669D /* LoginOrRegisterViewController.xib in Resources */,
 				5CE741C01EB02E2E00E8669D /* FriendViewController.xib in Resources */,
 				5C684E911EAF7EFD00A8CF87 /* Assets.xcassets in Resources */,
 			);
@@ -412,9 +425,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CE741C21EB0329000E8669D /* Header.swift in Sources */,
+				5CE741CA1EB0681B00E8669D /* YKMeFooterView.swift in Sources */,
 				5C684EBF1EAF938600A8CF87 /* YKExtension.swift in Sources */,
 				5C684EB91EAF84E500A8CF87 /* MeViewController.swift in Sources */,
+				5CE741C81EB0497B00E8669D /* YKMeCell.swift in Sources */,
 				5C684EBD1EAF8CCC00A8CF87 /* YKTabBar.swift in Sources */,
+				5CE741CD1EB068CD00E8669D /* LoginOrRegisterViewController.swift in Sources */,
 				5C684E8C1EAF7EFD00A8CF87 /* ViewController.swift in Sources */,
 				5CE741C41EB034C200E8669D /* UIBarButtonItem+Extension.swift in Sources */,
 				5C684EBB1EAF84F300A8CF87 /* NewViewController.swift in Sources */,

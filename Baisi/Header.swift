@@ -9,6 +9,7 @@
 import UIKit
 
 
+import QorumLogs
 
 //常用颜色
 //控制器view背景颜色
