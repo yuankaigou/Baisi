@@ -62,6 +62,8 @@ extension EssenceViewController{
         }
         //等于自己的bounds bounds等于contentoffset
         willShowChildVc.view.frame = scrollView.bounds
+        QL1(index)
+        QL1(willShowChildVc.view)
         self.scrollView?.addSubview(willShowChildVc.view)
         
     }
