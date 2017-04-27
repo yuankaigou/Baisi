@@ -8,28 +8,57 @@
 
 import UIKit
 
+import QorumLogs
+
+
+
+
 class EssenceViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        //设置导航条
+        self.setUpNav()
+        
+        //创建子控制器
+        self.setupChildVcs()
+        
+        
+        //创建scrollView 和titleView
+        
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func setUpNav(){
+    
+        self.navigationItem.titleView = UIImageView.init(image: UIImage.init(named: "MainTitle"))
+        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.itemWith(imageName: "MainTagSubIcon", highImageName: "MainTagSubIconClick", target: self, action: #selector(tagClick))
+        
     }
-    */
+
+    func tagClick(){
+        QL1("被点击了")
+    }
 
 }
+
+
+//MARK: 添加子控制器
+extension EssenceViewController{
+
+    func setupChildVcs(){
+        
+        
+    
+    }
+    
+}
+
+
+
+
+

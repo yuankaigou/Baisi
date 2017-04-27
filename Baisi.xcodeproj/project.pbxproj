@@ -17,6 +17,11 @@
 		5C684EBD1EAF8CCC00A8CF87 /* YKTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684EBC1EAF8CCC00A8CF87 /* YKTabBar.swift */; };
 		5C684EBF1EAF938600A8CF87 /* YKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684EBE1EAF938600A8CF87 /* YKExtension.swift */; };
 		5C6C0F471EB0E853001347B2 /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6C0F461EB0E853001347B2 /* SquareButton.swift */; };
+		5CB814EC1EB1BE77000C13B0 /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814EB1EB1BE77000C13B0 /* AllViewController.swift */; };
+		5CB814EE1EB1BE87000C13B0 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814ED1EB1BE87000C13B0 /* VideoViewController.swift */; };
+		5CB814F01EB1BE99000C13B0 /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814EF1EB1BE99000C13B0 /* VoiceViewController.swift */; };
+		5CB814F21EB1BEAA000C13B0 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814F11EB1BEAA000C13B0 /* PictureViewController.swift */; };
+		5CB814F41EB1BEBA000C13B0 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB814F31EB1BEBA000C13B0 /* WordViewController.swift */; };
 		5CE741BF1EB02E2E00E8669D /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741BD1EB02E2E00E8669D /* FriendViewController.swift */; };
 		5CE741C01EB02E2E00E8669D /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */; };
 		5CE741C21EB0329000E8669D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741C11EB0329000E8669D /* Header.swift */; };
@@ -43,6 +48,11 @@
 		5C684EBC1EAF8CCC00A8CF87 /* YKTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKTabBar.swift; sourceTree = "<group>"; };
 		5C684EBE1EAF938600A8CF87 /* YKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKExtension.swift; sourceTree = "<group>"; };
 		5C6C0F461EB0E853001347B2 /* SquareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
+		5CB814EB1EB1BE77000C13B0 /* AllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		5CB814ED1EB1BE87000C13B0 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		5CB814EF1EB1BE99000C13B0 /* VoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		5CB814F11EB1BEAA000C13B0 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		5CB814F31EB1BEBA000C13B0 /* WordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
 		5CE741BD1EB02E2E00E8669D /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
 		5CE741C11EB0329000E8669D /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -124,6 +134,7 @@
 		5C684E9D1EAF80FC00A8CF87 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5CB814EA1EB1BE47000C13B0 /* 子控制器 */,
 				5C684EB41EAF84A800A8CF87 /* EssenceViewController.swift */,
 			);
 			path = Controller;
@@ -289,6 +300,18 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5CB814EA1EB1BE47000C13B0 /* 子控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				5CB814EB1EB1BE77000C13B0 /* AllViewController.swift */,
+				5CB814ED1EB1BE87000C13B0 /* VideoViewController.swift */,
+				5CB814EF1EB1BE99000C13B0 /* VoiceViewController.swift */,
+				5CB814F11EB1BEAA000C13B0 /* PictureViewController.swift */,
+				5CB814F31EB1BEBA000C13B0 /* WordViewController.swift */,
+			);
+			name = "子控制器";
+			sourceTree = "<group>";
+		};
 		5D06896EC5C9DE4DE227F7D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,18 +455,23 @@
 			files = (
 				5CE741C21EB0329000E8669D /* Header.swift in Sources */,
 				5CE741CA1EB0681B00E8669D /* YKMeFooterView.swift in Sources */,
+				5CB814EE1EB1BE87000C13B0 /* VideoViewController.swift in Sources */,
 				5C684EBF1EAF938600A8CF87 /* YKExtension.swift in Sources */,
 				5C684EB91EAF84E500A8CF87 /* MeViewController.swift in Sources */,
 				5CE741C81EB0497B00E8669D /* YKMeCell.swift in Sources */,
 				5C684EBD1EAF8CCC00A8CF87 /* YKTabBar.swift in Sources */,
 				5CE741CD1EB068CD00E8669D /* LoginOrRegisterViewController.swift in Sources */,
 				5C684E8C1EAF7EFD00A8CF87 /* ViewController.swift in Sources */,
+				5CB814F41EB1BEBA000C13B0 /* WordViewController.swift in Sources */,
+				5CB814F21EB1BEAA000C13B0 /* PictureViewController.swift in Sources */,
 				5CE741C41EB034C200E8669D /* UIBarButtonItem+Extension.swift in Sources */,
 				5C684EBB1EAF84F300A8CF87 /* NewViewController.swift in Sources */,
 				5C6C0F471EB0E853001347B2 /* SquareButton.swift in Sources */,
 				5C684E8A1EAF7EFD00A8CF87 /* AppDelegate.swift in Sources */,
 				5CE741BF1EB02E2E00E8669D /* FriendViewController.swift in Sources */,
+				5CB814F01EB1BE99000C13B0 /* VoiceViewController.swift in Sources */,
 				5C684EB31EAF83FF00A8CF87 /* MainTabBarController.swift in Sources */,
+				5CB814EC1EB1BE77000C13B0 /* AllViewController.swift in Sources */,
 				5C684EB51EAF84A800A8CF87 /* EssenceViewController.swift in Sources */,
 				5CE741D01EB0709000E8669D /* YKSquare.swift in Sources */,
 			);
