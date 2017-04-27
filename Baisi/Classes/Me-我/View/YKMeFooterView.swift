@@ -66,7 +66,7 @@ class YKMeFooterView: UIView {
         for i in (0..<squareCount){
             
             let btn = SquareButton.init(type: UIButtonType.custom)
-            btn.backgroundColor = UIColor.green
+        
             self.addSubview(btn)
             
             btn.addTarget(self, action: #selector(squareClick(btn:)), for: UIControlEvents.touchUpInside)
@@ -74,10 +74,13 @@ class YKMeFooterView: UIView {
             //设置数据
             btn.square = squares[i] as? YKSquare
         
-            
             let buttonX = CGFloat(i%colsCount) * CGFloat(buttonW)
             let buttonY = CGFloat(i / colsCount) * CGFloat(buttonH)
             btn.frame = CGRect.init(x: buttonX, y: buttonY, width: buttonW, height: buttonH)
+            
+            //自己的高度
+            self.setHeight(ykHeight: btn.frame.maxY)
+            
         }
         
         //重新设置

@@ -11,6 +11,8 @@ import UIKit
 import QorumLogs
 
 class FriendViewController: UIViewController {
+    
+    @IBOutlet weak var testImageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

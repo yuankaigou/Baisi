@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Kingfisher
+
 
 class SquareButton: UIButton {
 
@@ -15,10 +17,15 @@ class SquareButton: UIButton {
     
         didSet{
 
-        //传递数据
-        print((square?.name)!)
-//         self.titleLabel?.text = (square?.name)!
+            //传递数据
+            print((square?.name)!)
             self.setTitle((square?.name)!, for: .normal)
+            
+            //设置图片url
+            //self.imageView?.backgroundColor = UIColor.red
+            self.kf.setImage(with: URL.init(string: (square?.icon)!), for: UIControlState.normal)
+            
+            self.setBackgroundImage(UIImage.init(named: "mainCellBackground"), for: UIControlState.normal)
         }
         
     }
@@ -43,12 +50,19 @@ class SquareButton: UIButton {
         self.imageView?.setHeight(ykHeight: (self.imageView?.yk_width())!)
         self.imageView?.setY(ykY:self.yk_height() * 0.1)
         self.imageView?.setCenterX(ykcenterX: self.yk_width()*0.5)
+        
+        
        
         //Label位置
         self.titleLabel?.setWidth(ykWidth: self.yk_width())
         self.titleLabel?.setY(ykY: (self.imageView?.yk_height())! + self.yk_height() * 0.1)
         self.titleLabel?.setX(ykX: 0)
         self.titleLabel?.setHeight(ykHeight: self.yk_height() - (self.titleLabel?.yk_Y())!)
+    
+        print(self.imageView?.frame as Any)
+        print(self.titleLabel?.frame as Any)
+        
+    
     }
     
 
