@@ -8,11 +8,11 @@
 
 import UIKit
 
-class WordViewController: UIViewController {
+class WordViewController: TopicTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = YKRandomColor
         // Do any additional setup after loading the view.
     }
 

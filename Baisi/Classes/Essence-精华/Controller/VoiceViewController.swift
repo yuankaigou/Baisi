@@ -8,11 +8,11 @@
 
 import UIKit
 
-class VoiceViewController: UIViewController {
+class VoiceViewController: TopicTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = YKRandomColor
         // Do any additional setup after loading the view.
     }
 

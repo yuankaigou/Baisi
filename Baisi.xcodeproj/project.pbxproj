@@ -31,6 +31,8 @@
 		5CE741CD1EB068CD00E8669D /* LoginOrRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741CB1EB068CD00E8669D /* LoginOrRegisterViewController.swift */; };
 		5CE741CE1EB068CD00E8669D /* LoginOrRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE741CC1EB068CD00E8669D /* LoginOrRegisterViewController.xib */; };
 		5CE741D01EB0709000E8669D /* YKSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE741CF1EB0709000E8669D /* YKSquare.swift */; };
+		5CFE647A1EB1CF3900FC7A6A /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE64791EB1CF3900FC7A6A /* TopicTableViewController.swift */; };
+		5CFE647C1EB1D3C700FC7A6A /* YKTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE647B1EB1D3C700FC7A6A /* YKTitleButton.swift */; };
 		75EBE1CB415D3F1297DD6677 /* Pods_Baisi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6A78C2E8403AC3CAE98A1E /* Pods_Baisi.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		5CE741CB1EB068CD00E8669D /* LoginOrRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginOrRegisterViewController.swift; sourceTree = "<group>"; };
 		5CE741CC1EB068CD00E8669D /* LoginOrRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginOrRegisterViewController.xib; sourceTree = "<group>"; };
 		5CE741CF1EB0709000E8669D /* YKSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKSquare.swift; sourceTree = "<group>"; };
+		5CFE64791EB1CF3900FC7A6A /* TopicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
+		5CFE647B1EB1D3C700FC7A6A /* YKTitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKTitleButton.swift; sourceTree = "<group>"; };
 		8BA832802D2A8ED5789D69B8 /* Pods-Baisi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baisi.release.xcconfig"; path = "Baisi/Pods/Target Support Files/Pods-Baisi/Pods-Baisi.release.xcconfig"; sourceTree = "<group>"; };
 		95FD85A48B351BECF28C4C48 /* Pods-Baisi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baisi.debug.xcconfig"; path = "Baisi/Pods/Target Support Files/Pods-Baisi/Pods-Baisi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +154,7 @@
 		5C684E9F1EAF80FC00A8CF87 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5CFE647B1EB1D3C700FC7A6A /* YKTitleButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				5CB814EF1EB1BE99000C13B0 /* VoiceViewController.swift */,
 				5CB814F11EB1BEAA000C13B0 /* PictureViewController.swift */,
 				5CB814F31EB1BEBA000C13B0 /* WordViewController.swift */,
+				5CFE64791EB1CF3900FC7A6A /* TopicTableViewController.swift */,
 			);
 			name = "子控制器";
 			sourceTree = "<group>";
@@ -466,10 +472,12 @@
 				5CB814F21EB1BEAA000C13B0 /* PictureViewController.swift in Sources */,
 				5CE741C41EB034C200E8669D /* UIBarButtonItem+Extension.swift in Sources */,
 				5C684EBB1EAF84F300A8CF87 /* NewViewController.swift in Sources */,
+				5CFE647C1EB1D3C700FC7A6A /* YKTitleButton.swift in Sources */,
 				5C6C0F471EB0E853001347B2 /* SquareButton.swift in Sources */,
 				5C684E8A1EAF7EFD00A8CF87 /* AppDelegate.swift in Sources */,
 				5CE741BF1EB02E2E00E8669D /* FriendViewController.swift in Sources */,
 				5CB814F01EB1BE99000C13B0 /* VoiceViewController.swift in Sources */,
+				5CFE647A1EB1CF3900FC7A6A /* TopicTableViewController.swift in Sources */,
 				5C684EB31EAF83FF00A8CF87 /* MainTabBarController.swift in Sources */,
 				5CB814EC1EB1BE77000C13B0 /* AllViewController.swift in Sources */,
 				5C684EB51EAF84A800A8CF87 /* EssenceViewController.swift in Sources */,

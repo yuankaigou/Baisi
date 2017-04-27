@@ -18,7 +18,6 @@ class SquareButton: UIButton {
         didSet{
 
             //传递数据
-            print((square?.name)!)
             self.setTitle((square?.name)!, for: .normal)
             
             //设置图片url
@@ -59,8 +58,8 @@ class SquareButton: UIButton {
         self.titleLabel?.setX(ykX: 0)
         self.titleLabel?.setHeight(ykHeight: self.yk_height() - (self.titleLabel?.yk_Y())!)
     
-        print(self.imageView?.frame as Any)
-        print(self.titleLabel?.frame as Any)
+        //print(self.imageView?.frame as Any)
+        //print(self.titleLabel?.frame as Any)
         
     
     }

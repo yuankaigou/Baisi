@@ -8,11 +8,12 @@
 
 import UIKit
 
-class AllViewController: UIViewController {
+class AllViewController: TopicTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.view.backgroundColor = YKRandomColor
         // Do any additional setup after loading the view.
     }
 

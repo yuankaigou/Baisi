@@ -69,9 +69,13 @@ extension UIView{
         temp_center.y = ykcenterY
         self.center = temp_center
     }
-    
-    
-    
 
+    //中心点
+    func yk_centerX()->CGFloat{
+        return self.center.x
+    }
+    
+    
+    
 
 }

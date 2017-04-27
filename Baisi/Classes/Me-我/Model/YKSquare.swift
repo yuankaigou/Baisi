@@ -23,8 +23,6 @@ class YKSquare: NSObject {
     
     //重写
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
-        print(key)
-        
     }
     
     

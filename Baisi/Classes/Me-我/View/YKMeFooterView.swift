@@ -34,9 +34,7 @@ class YKMeFooterView: UIView {
         //发送GET请求 使用weakself 避免循环引用
         Alamofire.request(YKRequestURL, parameters: parameters).responseJSON { [weak self]  response in
             if let JSONResult = response.result.value {
-                //swiftJson解析
                 let json = JSON(JSONResult)
-                //print(json["square_list"][0])
                 let items = json["square_list"]
                 for item in items {
                     let dictItem = item.1.rawValue

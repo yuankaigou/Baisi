@@ -8,11 +8,11 @@
 
 import UIKit
 
-class PictureViewController: UIViewController {
+class PictureViewController: TopicTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = YKRandomColor
         // Do any additional setup after loading the view.
     }
 
