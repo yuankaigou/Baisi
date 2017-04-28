@@ -8,39 +8,42 @@
 
 import UIKit
 
+
+
 class TopicTableViewController: UITableViewController {
 
+    //cellID
+    let topicCellID = "topicCell"
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-       
+        self.setTableView()
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+    
+    func setTableView(){
+        //设置tableView
+        self.tableView.backgroundColor = YKCommonBgColor
+        self.tableView.contentInset = UIEdgeInsets.init(top: YKNavBarMaxY + YKTitlesViewH, left: 0, bottom: YKTabBarViewH, right: 0)
+        self.tableView.scrollIndicatorInsets = self.tableView.contentInset
+        self.tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: topicCellID)
+        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 20
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: topicCellID, for: indexPath)
+        //但因一个雷
+        cell.textLabel?.text = String.init(format: "\(type(of: self)) \(indexPath.row)")
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.

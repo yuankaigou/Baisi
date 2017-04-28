@@ -1,6 +1,6 @@
-platform :ios, '8.0'
 use_frameworks!
 
+platform :ios, '8.0'
 project '../Baisi.xcodeproj'
 
 target 'Baisi' do
@@ -8,6 +8,7 @@ target 'Baisi' do
 pod 'QorumLogs' 
 
 pod 'Alamofire', '~> 4.4.0'
+pod 'MJRefresh', '~> 3.1.12'
 pod 'SwiftyJSON'
 pod 'Kingfisher'
 

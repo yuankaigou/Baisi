@@ -13,7 +13,7 @@ class WordViewController: TopicTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.cyan
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -23,6 +23,10 @@ let YKRequestURL = "http://api.budejie.com/api/api_open.php"
 /** 导航条的高度 */
 let YKNavBarMaxY:CGFloat = 64
 
+/** tabBar高度 */
+let YKTabBarViewH:CGFloat = 49
+
+
 /** XMGTitlesView的高度 */
 let YKTitlesViewH:CGFloat = 35
 

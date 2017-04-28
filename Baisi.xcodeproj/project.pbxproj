@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C684E8A1EAF7EFD00A8CF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684E891EAF7EFD00A8CF87 /* AppDelegate.swift */; };
-		5C684E8C1EAF7EFD00A8CF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684E8B1EAF7EFD00A8CF87 /* ViewController.swift */; };
 		5C684E911EAF7EFD00A8CF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C684E901EAF7EFD00A8CF87 /* Assets.xcassets */; };
 		5C684EB31EAF83FF00A8CF87 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684EB21EAF83FF00A8CF87 /* MainTabBarController.swift */; };
 		5C684EB51EAF84A800A8CF87 /* EssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C684EB41EAF84A800A8CF87 /* EssenceViewController.swift */; };
@@ -40,7 +39,6 @@
 		0B6A78C2E8403AC3CAE98A1E /* Pods_Baisi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baisi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C684E861EAF7EFD00A8CF87 /* Baisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C684E891EAF7EFD00A8CF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C684E8B1EAF7EFD00A8CF87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C684E901EAF7EFD00A8CF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C684E951EAF7EFD00A8CF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C684EB21EAF83FF00A8CF87 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -55,6 +53,7 @@
 		5CB814EF1EB1BE99000C13B0 /* VoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
 		5CB814F11EB1BEAA000C13B0 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		5CB814F31EB1BEBA000C13B0 /* WordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		5CC37F931EB2404800A1BEFD /* Swift-Bridge-Objective-C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridge-Objective-C.h"; sourceTree = "<group>"; };
 		5CE741BD1EB02E2E00E8669D /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		5CE741BE1EB02E2E00E8669D /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
 		5CE741C11EB0329000E8669D /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -105,7 +104,6 @@
 			children = (
 				5C684E9B1EAF80FC00A8CF87 /* Classes */,
 				5C684E891EAF7EFD00A8CF87 /* AppDelegate.swift */,
-				5C684E8B1EAF7EFD00A8CF87 /* ViewController.swift */,
 				5CE741C11EB0329000E8669D /* Header.swift */,
 				5C684E901EAF7EFD00A8CF87 /* Assets.xcassets */,
 				5C684E951EAF7EFD00A8CF87 /* Info.plist */,
@@ -269,6 +267,7 @@
 				5C684EAE1EAF80FC00A8CF87 /* Controller */,
 				5C684EAF1EAF80FC00A8CF87 /* Model */,
 				5C684EB01EAF80FC00A8CF87 /* View */,
+				5CC37F931EB2404800A1BEFD /* Swift-Bridge-Objective-C.h */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -467,7 +466,6 @@
 				5CE741C81EB0497B00E8669D /* YKMeCell.swift in Sources */,
 				5C684EBD1EAF8CCC00A8CF87 /* YKTabBar.swift in Sources */,
 				5CE741CD1EB068CD00E8669D /* LoginOrRegisterViewController.swift in Sources */,
-				5C684E8C1EAF7EFD00A8CF87 /* ViewController.swift in Sources */,
 				5CB814F41EB1BEBA000C13B0 /* WordViewController.swift in Sources */,
 				5CB814F21EB1BEAA000C13B0 /* PictureViewController.swift in Sources */,
 				5CE741C41EB034C200E8669D /* UIBarButtonItem+Extension.swift in Sources */,
@@ -595,7 +593,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NV.Baisi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Baisi/Classes/Other-其他/Swift-Bridge-Objective-C.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -611,7 +611,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NV.Baisi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/Baisi/Classes/Other-其他/Swift-Bridge-Objective-C.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};

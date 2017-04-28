@@ -63,9 +63,23 @@ extension EssenceViewController{
         //等于自己的bounds bounds等于contentoffset
         willShowChildVc.view.frame = scrollView.bounds
         QL1(index)
-        QL1(willShowChildVc.view)
+        QL1(willShowChildVc.view.backgroundColor)
+        
         self.scrollView?.addSubview(willShowChildVc.view)
         
+    }
+    
+    //人为拖动
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+       
+        //减速的时候已经移动完成
+        QL1(scrollView.contentOffset.x)
+        
+        self.scrollViewDidEndScrollingAnimation(scrollView)
+        
+        //手动没有创建
+        let index = scrollView.contentOffset.x / scrollView.yk_width()
+        self.titleClick(titleButton: self.titleButtons[Int(index)] as! UIButton)
     }
 }
 
@@ -117,6 +131,8 @@ extension EssenceViewController{
 //MARK: 按钮点击选中控制
 extension EssenceViewController{
     
+    
+    //点击按钮执行偏移
     func titleClick(titleButton:UIButton){
         //之前被选中的为NO
         self.selectedButton?.isSelected = false
@@ -128,12 +144,11 @@ extension EssenceViewController{
             self.titleBottomView?.setCenterX(ykcenterX: titleButton.yk_centerX())
         }
         
-        
-        
         //对应scrollView移动位置
         var offset = self.scrollView?.contentOffset
         let buttonIndex = (self.titleButtons as NSArray).index(of: titleButton)
         offset?.x = CGFloat(buttonIndex) * self.view.yk_width()
+        //调用did
         self.scrollView?.setContentOffset(offset!, animated: true)
     }
     
@@ -197,18 +212,17 @@ extension EssenceViewController{
         video.title = "视频"
         self.addChildViewController(video)
         
-        let voice = VideoViewController()
+        let voice = VoiceViewController()
         voice.title = "声音"
         self.addChildViewController(voice)
         
-        let picture = VideoViewController()
+        let picture = PictureViewController()
         picture.title = "图片"
         self.addChildViewController(picture)
         
-        let word = VideoViewController()
+        let word = WordViewController()
         word.title = "文字"
         self.addChildViewController(word)
-        
     }
     
 }
